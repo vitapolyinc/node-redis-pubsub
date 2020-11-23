@@ -110,7 +110,19 @@ var unsubscribe = nrp.on('say hello', function(data){
   // Never called
 });
 
-unsubscribe([Callback]);
+unsubscribe();
+```
+
+Or use off()
+
+```javascript
+function handler(data){
+  // Never called
+}
+
+nrp.on('say hello', handler);
+
+nrp.off('say hello', handler);
 ```
 
 ### Shut down connections
