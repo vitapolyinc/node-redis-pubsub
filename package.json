@@ -1,6 +1,6 @@
 {
   "name": "node-redis-pubsub",
-  "version": "4.0.0",
+  "version": "4.1.0",
   "author": {
     "name": "Louis Chatriot",
     "email": "louis.chatriot@gmail.com"
@@ -9,7 +9,8 @@
     "Louis Chatriot",
     "omarmohamed",
     "Martin Saint-Macary",
-    "Narciso Guillen"
+    "Narciso Guillen",
+    "Michael Xu Wang"
   ],
   "description": "Redis PubSub client for Node",
   "keywords": [
